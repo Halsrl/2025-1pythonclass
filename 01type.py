@@ -11,3 +11,8 @@ min = sec/ 60
 bigger = min > sec
 print(sec, min, bigger)
 print(type(title), type(sec), type(min), type(bigger))
+
+
+
+# 사칙연산중에서 0으로 나누는 것은 혀용하지 않음
+print(3/0)
