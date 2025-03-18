@@ -15,4 +15,16 @@ print(type(title), type(sec), type(min), type(bigger))
 
 
 # 사칙연산중에서 0으로 나누는 것은 혀용하지 않음
-print(3/0)
+#print(3/0)
+
+
+a= "True"
+print("변수 a의 자료형은"  type(a))
+a='3'
+b=float(a)
+
+print(b**int(a))
+
+a='3.5'
+b=4
+print(a*b)
